@@ -31,14 +31,16 @@
   padding: 10px 20px;
   background-color: #05386B;
   border-radius: 5px;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 800;
   color: #edf5e1;
+  transition: all .3s ease-in-out;
 }
 
 .browse:hover {
   cursor: pointer;
-  background-color: #06386D;
+  background-color: #5cdb95;
+  color: #05386B;
 }
 
 .file-list {
