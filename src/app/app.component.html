@@ -5,7 +5,7 @@
     <ul class="file-list">
       <li
         class="file-list-item"
-        *ngFor="let file of files; index as i"
+        *ngFor="let file of files"
         [appHover]="file"
         (imageSrc)="onImageSrcChange($event)"
       >
